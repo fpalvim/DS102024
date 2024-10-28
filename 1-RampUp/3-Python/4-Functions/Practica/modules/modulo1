@@ -1,0 +1,3 @@
+def pop_item(x):
+    x.pop()
+    return x
