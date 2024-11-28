@@ -1,0 +1,51 @@
+name,url,types,abilities,hp,attack,defense,special-attack,special-defense,speed,is_legendary,generation,hidden_ability,primary_type,weight,height
+bulbasaur,https://pokeapi.co/api/v2/pokemon/1/,"grass, poison","overgrow, chlorophyll",45,49,49,65,65,45,False,generation-i,chlorophyll,grass,69,7
+ivysaur,https://pokeapi.co/api/v2/pokemon/2/,"grass, poison","overgrow, chlorophyll",60,62,63,80,80,60,False,generation-i,chlorophyll,grass,130,10
+venusaur,https://pokeapi.co/api/v2/pokemon/3/,"grass, poison","overgrow, chlorophyll",80,82,83,100,100,80,False,generation-i,chlorophyll,grass,1000,20
+charmander,https://pokeapi.co/api/v2/pokemon/4/,fire,"blaze, solar-power",39,52,43,60,50,65,False,generation-i,solar-power,fire,85,6
+charmeleon,https://pokeapi.co/api/v2/pokemon/5/,fire,"blaze, solar-power",58,64,58,80,65,80,False,generation-i,solar-power,fire,190,11
+charizard,https://pokeapi.co/api/v2/pokemon/6/,"fire, flying","blaze, solar-power",78,84,78,109,85,100,False,generation-i,solar-power,fire,905,17
+squirtle,https://pokeapi.co/api/v2/pokemon/7/,water,"torrent, rain-dish",44,48,65,50,64,43,False,generation-i,rain-dish,water,90,5
+wartortle,https://pokeapi.co/api/v2/pokemon/8/,water,"torrent, rain-dish",59,63,80,65,80,58,False,generation-i,rain-dish,water,225,10
+blastoise,https://pokeapi.co/api/v2/pokemon/9/,water,"torrent, rain-dish",79,83,100,85,105,78,False,generation-i,rain-dish,water,855,16
+caterpie,https://pokeapi.co/api/v2/pokemon/10/,bug,"shield-dust, run-away",45,30,35,20,20,45,False,generation-i,run-away,bug,29,3
+metapod,https://pokeapi.co/api/v2/pokemon/11/,bug,shed-skin,50,20,55,25,25,30,False,generation-i,,bug,99,7
+butterfree,https://pokeapi.co/api/v2/pokemon/12/,"bug, flying","compound-eyes, tinted-lens",60,45,50,90,80,70,False,generation-i,tinted-lens,bug,320,11
+weedle,https://pokeapi.co/api/v2/pokemon/13/,"bug, poison","shield-dust, run-away",40,35,30,20,20,50,False,generation-i,run-away,bug,32,3
+kakuna,https://pokeapi.co/api/v2/pokemon/14/,"bug, poison",shed-skin,45,25,50,25,25,35,False,generation-i,,bug,100,6
+beedrill,https://pokeapi.co/api/v2/pokemon/15/,"bug, poison","swarm, sniper",65,90,40,45,80,75,False,generation-i,sniper,bug,295,10
+pidgey,https://pokeapi.co/api/v2/pokemon/16/,"normal, flying","keen-eye, tangled-feet, big-pecks",40,45,40,35,35,56,False,generation-i,big-pecks,normal,18,3
+pidgeotto,https://pokeapi.co/api/v2/pokemon/17/,"normal, flying","keen-eye, tangled-feet, big-pecks",63,60,55,50,50,71,False,generation-i,big-pecks,normal,300,11
+pidgeot,https://pokeapi.co/api/v2/pokemon/18/,"normal, flying","keen-eye, tangled-feet, big-pecks",83,80,75,70,70,101,False,generation-i,big-pecks,normal,395,15
+rattata,https://pokeapi.co/api/v2/pokemon/19/,normal,"run-away, guts, hustle",30,56,35,25,35,72,False,generation-i,hustle,normal,35,3
+raticate,https://pokeapi.co/api/v2/pokemon/20/,normal,"run-away, guts, hustle",55,81,60,50,70,97,False,generation-i,hustle,normal,185,7
+spearow,https://pokeapi.co/api/v2/pokemon/21/,"normal, flying","keen-eye, sniper",40,60,30,31,31,70,False,generation-i,sniper,normal,20,3
+fearow,https://pokeapi.co/api/v2/pokemon/22/,"normal, flying","keen-eye, sniper",65,90,65,61,61,100,False,generation-i,sniper,normal,380,12
+ekans,https://pokeapi.co/api/v2/pokemon/23/,poison,"intimidate, shed-skin, unnerve",35,60,44,40,54,55,False,generation-i,unnerve,poison,69,20
+arbok,https://pokeapi.co/api/v2/pokemon/24/,poison,"intimidate, shed-skin, unnerve",60,95,69,65,79,80,False,generation-i,unnerve,poison,650,35
+pikachu,https://pokeapi.co/api/v2/pokemon/25/,electric,"static, lightning-rod",35,55,40,50,50,90,False,generation-i,lightning-rod,electric,60,4
+raichu,https://pokeapi.co/api/v2/pokemon/26/,electric,"static, lightning-rod",60,90,55,90,80,110,False,generation-i,lightning-rod,electric,300,8
+sandshrew,https://pokeapi.co/api/v2/pokemon/27/,ground,"sand-veil, sand-rush",50,75,85,20,30,40,False,generation-i,sand-rush,ground,120,6
+sandslash,https://pokeapi.co/api/v2/pokemon/28/,ground,"sand-veil, sand-rush",75,100,110,45,55,65,False,generation-i,sand-rush,ground,295,10
+nidoran-f,https://pokeapi.co/api/v2/pokemon/29/,poison,"poison-point, rivalry, hustle",55,47,52,40,40,41,False,generation-i,hustle,poison,70,4
+nidorina,https://pokeapi.co/api/v2/pokemon/30/,poison,"poison-point, rivalry, hustle",70,62,67,55,55,56,False,generation-i,hustle,poison,200,8
+nidoqueen,https://pokeapi.co/api/v2/pokemon/31/,"poison, ground","poison-point, rivalry, sheer-force",90,92,87,75,85,76,False,generation-i,sheer-force,poison,600,13
+nidoran-m,https://pokeapi.co/api/v2/pokemon/32/,poison,"poison-point, rivalry, hustle",46,57,40,40,40,50,False,generation-i,hustle,poison,90,5
+nidorino,https://pokeapi.co/api/v2/pokemon/33/,poison,"poison-point, rivalry, hustle",61,72,57,55,55,65,False,generation-i,hustle,poison,195,9
+nidoking,https://pokeapi.co/api/v2/pokemon/34/,"poison, ground","poison-point, rivalry, sheer-force",81,102,77,85,75,85,False,generation-i,sheer-force,poison,620,14
+clefairy,https://pokeapi.co/api/v2/pokemon/35/,fairy,"cute-charm, magic-guard, friend-guard",70,45,48,60,65,35,False,generation-i,friend-guard,fairy,75,6
+clefable,https://pokeapi.co/api/v2/pokemon/36/,fairy,"cute-charm, magic-guard, unaware",95,70,73,95,90,60,False,generation-i,unaware,fairy,400,13
+vulpix,https://pokeapi.co/api/v2/pokemon/37/,fire,"flash-fire, drought",38,41,40,50,65,65,False,generation-i,drought,fire,99,6
+ninetales,https://pokeapi.co/api/v2/pokemon/38/,fire,"flash-fire, drought",73,76,75,81,100,100,False,generation-i,drought,fire,199,11
+jigglypuff,https://pokeapi.co/api/v2/pokemon/39/,"normal, fairy","cute-charm, competitive, friend-guard",115,45,20,45,25,20,False,generation-i,friend-guard,normal,55,5
+wigglytuff,https://pokeapi.co/api/v2/pokemon/40/,"normal, fairy","cute-charm, competitive, frisk",140,70,45,85,50,45,False,generation-i,frisk,normal,120,10
+zubat,https://pokeapi.co/api/v2/pokemon/41/,"poison, flying","inner-focus, infiltrator",40,45,35,30,40,55,False,generation-i,infiltrator,poison,75,8
+golbat,https://pokeapi.co/api/v2/pokemon/42/,"poison, flying","inner-focus, infiltrator",75,80,70,65,75,90,False,generation-i,infiltrator,poison,550,16
+oddish,https://pokeapi.co/api/v2/pokemon/43/,"grass, poison","chlorophyll, run-away",45,50,55,75,65,30,False,generation-i,run-away,grass,54,5
+gloom,https://pokeapi.co/api/v2/pokemon/44/,"grass, poison","chlorophyll, stench",60,65,70,85,75,40,False,generation-i,stench,grass,86,8
+vileplume,https://pokeapi.co/api/v2/pokemon/45/,"grass, poison","chlorophyll, effect-spore",75,80,85,110,90,50,False,generation-i,effect-spore,grass,186,12
+paras,https://pokeapi.co/api/v2/pokemon/46/,"bug, grass","effect-spore, dry-skin, damp",35,70,55,45,55,25,False,generation-i,damp,bug,54,3
+parasect,https://pokeapi.co/api/v2/pokemon/47/,"bug, grass","effect-spore, dry-skin, damp",60,95,80,60,80,30,False,generation-i,damp,bug,295,10
+venonat,https://pokeapi.co/api/v2/pokemon/48/,"bug, poison","compound-eyes, tinted-lens, run-away",60,55,50,40,55,45,False,generation-i,run-away,bug,300,10
+venomoth,https://pokeapi.co/api/v2/pokemon/49/,"bug, poison","shield-dust, tinted-lens, wonder-skin",70,65,60,90,75,90,False,generation-i,wonder-skin,bug,125,15
+diglett,https://pokeapi.co/api/v2/pokemon/50/,ground,"sand-veil, arena-trap, sand-force",10,55,25,35,45,95,False,generation-i,sand-force,ground,8,2
