@@ -32,6 +32,13 @@ ipywidgets = "^8.1.5"
 liac-arff = "^2.5.0"
 openpyxl = "^3.1.5"
 yfinance = "^0.2.50"
+folium = "^0.19.2"
+geopandas = "^1.0.1"
+branca = "^0.8.0"
+cufflinks = "^0.17.3"
+wordcloud = "^1.9.4"
+nltk = "^3.9.1"
+chart-studio = "^1.1.0"
 
 
 [build-system]
