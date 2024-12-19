@@ -41,6 +41,8 @@ class AutoImporter:
         print(f"Número de filas duplicadas: {self.df.duplicated().sum()}")
         print("\nValores nulos por columna:")
         print(self.df.isnull().sum())
+        print("\nValores nulos relativos por columna:")
+        print(round(self.df.isnull().sum() / len(self.df) * 100),2)
 
     # Mostrar las primeras filas para verificar la estructura
         print("\nPrimeras filas del dataset:")
