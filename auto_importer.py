@@ -94,54 +94,6 @@ class DataFrameDescriber:
         return self.non_numeric_cols.describe(include='all')
     
 
-# class CompleteDescribeTable:
-
-#     def __init__(self, df):
-#         self.df = df
-#         self.resumen = []
-
-#     def complete_describe_table(self):
-#         for columna in self.df.columns:
-#             data = self.df[columna]
-#             tipo_dato = self.df[columna].dtype
-
-#             if tipo_dato in ['float64','int64']:
-#                 var_tipo = 'numerica'
-#                 card_absoluta = data.nunique()
-#                 card_relativa = (data.nunique() / len(self.df)) * 100
-#                 missing_pct = round(self.df[columna].isnull().mean()*100,2)
-#                 rango = (data.min(), data.max())
-#                 moda = data.mode()[0] if not data.mode().empty else np.nan
-#                 mean_val = data.mean()
-#                 median_val = data.median()
-#                 skew_val = data.skew()
-#                 kurtosis_val = data.kurtosis()
-#                 std_deviation_val = data.std()
-#                 asimetria = 'positiva' if moda < median_val < mean_val else ('simetrica' if mean_val == median_val == moda else 'negativa')
-#                 # Shapiro test
-#                 stat_, p_ = stats.shapiro(data) if len(data) > 3 else (np.nan, np.nan) 
-#                 normal_test = 'No normal' if p_ < 0.05 else 'Normal'
-#                 dist = 'No Gaussiana' if p_ < 0.05 else 'Gaussiana'
-#                 # calculo de outliers
-#                 Q1 = data.quantile(0.25)
-#                 Q3 = data.quantile(0.75)
-#                 IQR = Q3 - Q1
-#                 limite_inferior = Q1 - 1.5 * IQR
-#                 limite_superior = Q3 + 1.5 * IQR
-#                 outliers = (data < limite_inferior) | (data > limite_superior)
-#                 outliers_pct = round((outliers.sum() / len(data)) * 100,2)
-#                 self.resumen.append([columna, tipo_dato, var_tipo, card_absoluta, card_relativa, dist, missing_pct, outliers_pct, rango, moda, median_val, mean_val, std_deviation_val, skew_val, kurtosis_val, stat_, p_, normal_test, asimetria])
-#             else:
-#                 var_tipo = 'categorica'
-#                 card_absoluta = data.nunique()
-#                 card_relativa = (data.nunique() / len(self.df)) * 100
-#                 # Para categoricas no se aplica normalidad
-#                 missing_pct = round(self.df[columna].isnull().mean()*100,2)
-#                 self.resumen.append([columna, tipo_dato, var_tipo, card_absoluta, card_relativa, None, missing_pct, None, None, None, None, None, None, None, None])
-
-
-#         resumen_df = pd.DataFrame(self.resumen, columns=['variable', 'tipo de dato', 'tipo de variable', 'cardinalidad abs' ,'cardinalidad %', 'distribucion', '% missing', '% Outliers', 'rango', 'moda', 'mediana', 'media', 'desv estandar', 'asimetria', 'curtosis', 'Valor estad.' , 'Valor de P', 'prueba normalidad', 'tipo asimetria'])
-#         resumen_df
 
 class CompleteDescribeTable:
     def __init__(self, df):
