@@ -12,7 +12,6 @@ notebook = "^7.2.2"
 pandas = "^2.2.2"
 sqlalchemy = "^2.0.34"
 pydantic = "^2.9.1"
-scikit-learn = "^1.5.2"
 numpy = "^2.1.1"
 matplotlib = "^3.9.2"
 statsmodels = "^0.14.2"
@@ -40,6 +39,8 @@ wordcloud = "^1.9.4"
 nltk = "^3.9.1"
 chart-studio = "^1.1.0"
 missingno = "^0.5.2"
+scikit-learn = "^1.6.1"
+ipython-sql = "^0.5.0"
 
 
 [build-system]
