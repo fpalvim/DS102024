@@ -32,11 +32,8 @@ liac-arff = "^2.5.0"
 openpyxl = "^3.1.5"
 yfinance = "^0.2.50"
 orjson = "^3.10.14"
-joblist = "^2.0.3"
-joblib = "^1.4.2"
-pydantic-settings = "^2.7.1"
-ydata-profiling = "^4.12.2"
-scikit-learn = "^1.6.1"
+scikit-optimize = "^0.10.2"
+optuna = "^4.2.0"
 
 
 [build-system]
