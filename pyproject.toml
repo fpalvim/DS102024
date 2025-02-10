@@ -43,6 +43,7 @@ scikit-learn = "^1.6.1"
 ipython-sql = "^0.5.0"
 scikit-optimize = "^0.10.2"
 optuna = "^4.2.0"
+undetected-chromedriver = "^3.5.5"
 
 
 [build-system]
