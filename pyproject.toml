@@ -44,6 +44,8 @@ ipython-sql = "^0.5.0"
 scikit-optimize = "^0.10.2"
 optuna = "^4.2.0"
 undetected-chromedriver = "^3.5.5"
+pmdarima = "^2.0.4"
+skforecast = "^0.14.0"
 
 
 [build-system]
