@@ -46,6 +46,11 @@ ipython-sql = "^0.5.0"
 =======
 scikit-optimize = "^0.10.2"
 optuna = "^4.2.0"
+<<<<<<< HEAD
+=======
+skforecast = "^0.14.0"
+shap = "^0.46.0"
+>>>>>>> afe71c6aa65b603953a38ea59df5a2bedaa480e6
 
 
 [build-system]

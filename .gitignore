@@ -170,3 +170,6 @@ Prof/
 2-proyecto_EDA/
 0.2-Mis-ejer/
 mnist.json
+
+Dataset/
+*.python-version
