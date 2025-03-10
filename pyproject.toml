@@ -45,6 +45,7 @@ ipython-sql = "^0.5.0"
 scikit-optimize = "^0.10.2"
 optuna = "^4.2.0"
 lime = "^0.2.0.1"
+lime = "^0.2.0.1"
 
 
 [build-system]
