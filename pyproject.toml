@@ -49,6 +49,10 @@ pytest = "^8.3.5"
 pytest-cov = "^6.1.0"
 pyspark = "^3.5.5"
 prefect = "^3.3.3"
+mypy = "^1.15.0"
+pytest = "^8.3.5"
+pytest-cov = "^6.1.0"
+pyspark = "^3.5.5"
 
 
 [build-system]
